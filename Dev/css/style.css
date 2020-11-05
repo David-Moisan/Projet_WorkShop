@@ -1,0 +1,255 @@
+/**Règles générales */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/**PARALLAX */
+
+.parallax-image {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -100;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.background {
+    position: absolute;
+    height: 767px;
+    width: 99%;
+    max-width: none;
+}
+
+/**HEADER */
+
+header {
+    background-color: #ffffff;
+    width: 100%;
+    border-right: 15px solid #ffffff;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 400px;
+}
+
+.spacer {
+    height: 10px;
+}
+
+.title-box {
+    display: block;
+    text-align: center;
+}
+
+.title-box h2 {
+    font-family: 'Meie Script';
+    color: #59a602;
+    font-size: 30px;
+}
+
+/**NAVBAR */
+
+.navbar {
+    position: absolute;
+    left: 490px;
+}
+
+.nav-link {
+    margin-right: 15px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #221a1a;
+    padding: 5px;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #59a602;
+}
+
+.nav-item {
+    font-size: 21px;
+}
+
+/**SECTION 1*/
+
+.container-fluid {
+    position: relative;
+}
+
+section.video {
+    height: 770px;
+    position: absolute;
+    top: 100%;
+    background-color:#ffffff;
+}
+
+.spacer {
+    height: 75px;
+}
+
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 250px;
+}
+
+.section-container .logo-remove {
+    position: absolute;
+    opacity: 0.5;
+}
+
+.section-container #petitVideo {
+    width: 100%;
+    height: 350px;
+    border: 2px solid #59a602;
+    background-color: black;
+}
+
+.container-fluid :nth-child(5) {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+
+.text-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.text-container p {
+    text-align: left;
+    font-size: 18px;
+    margin-left: 50px;
+    padding-right: -50px;
+}
+
+.text-container p strong {
+    color: #59a602;
+}
+
+.eco-btn {
+    float: right;
+}
+
+.transparent-space {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(255,255,255,.0);
+    position: absolute;
+    top: 100%;
+}
+
+/**SECTION 2 */
+
+.second-container {
+    height: 700px;
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 300%;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+    margin-left: -350px;
+}
+
+.domo-img {
+    width: 512px;
+    height: 341px;
+}
+
+.domo-container {
+    display: flex;
+    margin-left: auto;
+    padding: 50px;
+}
+
+
+/**FOOTER */
+
+footer {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    background-color: #ffffff;
+    bottom: 0;
+    top: 390%;
+}
+
+.spacer-green {
+    height: 15px;
+    background-color: #59a602;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container .footer-img .logo-footer {
+    position: relative;
+    left: -200px;
+}
+
+.adress {
+    font-size: 21px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.adress a {
+    text-decoration: none !important;
+    color: #59a602;
+}
+
+.adress a:hover {
+    color: #221a1a;
+}
+
+.social-list {
+    list-style: none;
+}
+
+.social-list li {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+}
+
+.social-list li a {
+    color: #221a1a;
+    font-size: 26px;
+}
+
+.social-list li a:hover {
+    color: #59a602;
+}
